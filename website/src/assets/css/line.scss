@@ -1,0 +1,12 @@
+.title-line {
+    position: relative;
+    height: 30px;
+    &::after{
+        display: block;
+        content: " ";
+        width: 50%;
+        height: 3px;
+        background-color: #f66;
+        transition: width 1s;
+    }
+}

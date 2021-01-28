@@ -1,0 +1,68 @@
+
+$minwidth:576px;
+$midwidth:768px;
+#advantage{
+    margin-top: -60px; 
+    padding-top: 60px;
+    border-bottom: 1px solid #eeee;
+    padding-bottom: 150px;
+    color: #000;
+    min-height: 450px;
+    .advantage_title{
+        text-align: center;
+        padding: 50px 0 20px 0 ;
+        span{
+            display: inline-block;
+            border-bottom: 4px solid rgb(255,98,97);
+            font-size: calc(18px + .7vw);
+            font-weight: 600;
+            color: #111;
+            letter-spacing: 5px;
+            line-height: 50px;
+        }
+    }
+    .advAnim2_box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .advantage_box{
+            flex:25%;
+            text-align: center;
+            cursor: pointer;
+            .ad_img{
+                padding: 10% 0;
+                margin: 20% 30% 15% 30%;
+                border-radius: 50%;
+                background-color: #ff6262;
+                overflow: hidden;
+                img{
+                    width: 50%;
+                }
+            }
+            .ad_words{
+                p{
+                    font-size: calc(12px + .2vw);
+                    word-break:break-all;
+                    display:-webkit-box;
+                    -webkit-line-clamp:1;
+                    -webkit-box-orient:vertical;
+                    overflow:hidden;
+                }
+                b{
+                    font-size: calc(13px + .2vw);
+                    font-weight: 700;
+                    word-break:break-all;
+                    display:-webkit-box;
+                    -webkit-line-clamp:1;
+                    -webkit-box-orient:vertical;
+                    overflow:hidden;
+                }
+            }
+        }
+        @media screen and (max-width:$midwidth) {
+            .advantage_box{
+                flex: 50%;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+#custom_drg{
+    color: #000;
+    padding-bottom: 100px;
+    h3{
+        span{
+            display: inline-block;
+            font-size: calc(18px + .7vw);
+            font-weight: 700;
+            line-height: 3.6em;
+            border-bottom: 3px solid #000;
+            margin: 20px 0 40px 0;
+        }
+    }
+    p{ 
+        font-size: calc(15px + .2vw);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 40px;
+        letter-spacing:2px;
+        text-indent: 2em;
+    }
+    .custom_drg_img{
+        padding: 10px 40px 0 40px;
+        width: 100%;
+        display: block;
+    }
+    @media screen and(max-width:992px) {
+        .custom_drg_img{
+            padding:10px 0 0 0;
+        }
+    }
+    .custom_drg_box{
+        padding: 20px 40px 0 40px;
+        .custom_drg_words{
+            text-align: center;
+            font-size: 14px;
+        }
+        b{
+            font-size: calc(15px + 0.2vw);
+        }
+        p{
+            line-height: 50px;
+            text-indent: 0;
+        }
+        ul{
+            padding-bottom: 20px;
+            li{
+                list-style: disc;
+                line-height: 46px;
+                font-size: calc(14px + 0.2vw);
+            }
+        }
+    }
+}

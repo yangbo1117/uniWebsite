@@ -1,0 +1,61 @@
+.span-b{
+    font-size: calc(14px + .15vw);
+    font-weight: 700;
+    color: #252525;
+}
+
+.span-15 {
+    font-size: 15px;
+}
+
+.card-title-m {
+    font-size: 17px;
+    font-weight: 700;
+    color: #252525;
+}
+
+.span-icon-wx{
+    display: block;
+    font-size: calc(2rem + .5vw);
+    padding-top: 3rem;
+}
+
+.span-strong{
+    font-size: 14px;
+    color: #252525;
+}
+
+.title-position {
+    color: #252525;
+    font-size: calc(15px + .5vw);
+    font-weight: 700;
+}
+
+.position-title-box{
+    background-color: #f1f1f1;
+    padding: 20px 5%;
+    position: relative;
+    letter-spacing: 2px;
+    &::before{
+        position: absolute;
+        display: block;
+        content: " ";
+        width: 4px;
+        height: 60%;
+        background-color: #f66;
+        top: 20%;
+        left: 3%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .position-title-box{
+        padding: 20px 10%;
+    }
+}
+
+.list-indent{
+    color: #252525;
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 30px;
+}

@@ -1,0 +1,23 @@
+.public_enterprise_title{
+    margin: 20px 0;
+    span{
+        display: inline-block;
+        font-size: calc(20px + .8vw);
+        font-weight: 500;
+        padding-right: 20px;
+        line-height: 70px;
+        position: relative;
+        &::after{
+            content: " ";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            right: 0;
+            bottom: 0;
+            background:-webkit-linear-gradient(right, #252525 , #fff); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, #252525 , #fff); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, #252525 , #fff); /* Firefox 3.6 - 15 */
+            background: linear-gradient(to right, #252525 , #fff); /* 标准的语法 */
+        }
+    }
+}

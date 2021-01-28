@@ -1,0 +1,47 @@
+#case_hosp{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    .case_hosp_photo{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        .ant-avatar{
+            width: 128px;
+        }
+        h2{
+            flex-grow: 1;
+            font-size: calc(18px + .7vw);
+            font-weight: 700;
+        }
+    }
+    .case_hosp_title{
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        h2{
+            font-size: calc(18px + .7vw);
+        }
+    }
+    .case_hosp_content{
+        p{
+            font-size: calc(14.5px + .2vw);
+            padding: 5px 0 ;
+            line-height: 40px;
+            letter-spacing:3px;
+            text-indent: 2em;
+            .case_hosp_img1{
+                float: right;
+                width: 300px;
+            }
+            .case_hosp_img2{
+                float: left;
+                width: 300px;
+            }
+        }
+        .case_hosp_img3{
+            width: 100%;
+            padding: 15px 0;
+        }
+    }
+}

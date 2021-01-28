@@ -1,0 +1,89 @@
+#honor{
+    .demeanour_content{
+        p{
+            font-size: calc(14.5px + .2vw);
+            line-height: 40px;
+            letter-spacing:2px;
+            text-indent: 2em;
+        }
+        .demeanour_content_img{
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            padding: 15px 0;
+            img{
+                display: block;
+                width: 100%;
+                min-height: 180px;
+            }
+            p{
+                font-size: calc(16px + .2vw);
+                padding: 10px;
+                margin: 20px;
+                font-weight: 600;
+                color: #252525;
+                text-align: center;
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    height: 4px;
+                    width: 50%;
+                    background-color: #f77;
+                    left: 30%;
+                }
+            }
+        }
+        .demeanour_content_tag{
+            background-color: #f7f7f7;
+            padding: 20px 40px;
+            margin: 40px 0;
+            h4{
+                text-align: center;
+                padding: 15px 0;
+                b{
+                    display: inline-block;
+                    padding: 10px 0;
+                    font-size: 18px;
+                    border-bottom: 3px solid #FF5E66;
+                }
+            }
+            .ul_list1{
+                li{
+                    font-size: calc(14.5px + .2vw);
+                    vertical-align: middle;
+                    line-height: 50px;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 8px;
+                        margin: 0 8px;
+                        height: 8px;
+                        background-color: #FF5E66;
+                        border-radius: 50%;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .ul_list2{
+                li{
+                    font-size: 1.05rem;
+                    vertical-align: middle;
+                    line-height: 50px;
+                    &::before{
+                        content: "";
+                        display: inline-block;
+                        width: 8px;
+                        margin: 0 8px;
+                        height: 8px;
+                        background-color: #FF5E66;
+                        border-radius: 50%;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
+

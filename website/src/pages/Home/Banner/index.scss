@@ -1,0 +1,23 @@
+#banner{
+    .ant-carousel{
+        .slick-slider{
+            overflow: hidden;
+            .slick-list{
+                img{
+                    display: block;
+                    width: 100%;
+                    cursor: pointer;
+                }
+            }
+            .slick-dots{
+                li{
+                    button{
+                        &::before{
+                            content: "";
+                        }
+                    }
+                }
+            } 
+        }
+    }   
+}

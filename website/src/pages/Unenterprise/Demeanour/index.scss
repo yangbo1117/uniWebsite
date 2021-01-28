@@ -1,0 +1,142 @@
+$minwidth:576px;
+#demeanour{
+    .demeanour_text_shell{
+        margin: 25px 0;
+        padding: 20px 0;
+        // border: 1px solid #252525;
+        .demeanour_textbox{
+            overflow: hidden;
+            text-align: center;
+            font-size: calc(12px + .2vw);
+            background-color: #ebecee;
+            padding: 40px 5px;
+            cursor: pointer;
+            transition: all .2s ease-out;
+            img{
+                display: inline-block;
+                height: 60px;
+                padding: 10px;
+            }
+            &:hover{
+                background-color: #e86a6d;
+                color: #fff;
+                transform:scale(1.05);
+            }
+        }
+    }
+    .vh_slider1_shell{
+        // border: 1px solid #D6D9DC;
+        // background-color: #eaebf0;
+        .slick-slider{
+            .slick-prev{
+                left: -5%;
+                height: 100%;
+                width: 30%;
+                // background-color: transparent;
+                z-index: 999;
+                &:hover{
+                    &:before{
+                        opacity: 0;
+                    }
+                }
+                &:before{
+                    opacity: 0;
+                    background-color: rgba(36,34,35,.9);
+                    display: inline-block;
+                    content: "<";
+                    padding: 10%;
+                    font-size: calc(40px + .5vw);
+                }
+            }
+            .slick-next{
+                right: -5%;
+                height: 100%;
+                width: 30%;
+                background-color: transparent;
+                z-index: 999;
+                &:hover{
+                    &:before{
+                        opacity: 0;
+                    }
+                }
+                &:before{
+                    opacity: 0;
+                    background-color: rgba(36,34,35,.9);
+                    box-shadow: 0px 0px 3px #888;
+                    display: inline-block;
+                    content: ">";
+                    padding: 10%;
+                    font-size: calc(40px + .5vw);
+                }
+            }
+            .slick-list{
+                .viewhigh_slider1{
+                    img{
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .vh_slider2_shell{
+        display: flex;
+        justify-content: center;
+        background-color: #eaebf0;
+        border: 1px solid #D6D9DC;
+        padding: 20px;
+        margin: 60px 0;
+        .slick-slider{
+            width: 80%;
+            border: 1px solid #666;
+            .slick-prev{
+                width:3%;
+                height: 80%;
+                // border-radius: 5%;
+                // border: 1px solid #B7B8BB;
+                // background-color: #D2D5D8;
+                left: -10%;
+                background-image: url('./img/picSlideLeft.gif');
+                background-size: 100% 100%;
+                &:before{
+                    // text-align: center;
+                    // display: inline-block;
+                    // width:100%;
+                    content: "";
+                    // font-size: calc(8px + .8vw);
+                }
+            }
+            .slick-next{
+                width:3%;
+                height: 80%;
+                // border-radius: 5%;
+                // border: 1px solid #B7B8BB;
+                // background-color: #D2D5D8;
+                right: -10%;
+                background-image: url('./img/picSlideRight.gif');
+                background-size: 100% 100%;
+                &:before{
+                    // text-align: center;
+                    // display: inline-block;
+                    // width:100%;
+                    content: " ";
+                    // font-size: calc(8px + .8vw);
+                }
+            }
+            .slick-list{
+                .slick-current{
+                    border: 1px solid #888;
+                    background-color: #fff;
+                }
+                .viewhigh_slider2{
+                    text-align: center;
+                    img{
+                        cursor: pointer;
+                        display: inline-block;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

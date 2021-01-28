@@ -1,0 +1,21 @@
+#introduce{
+    .introduce_text{
+        p{
+            font-size: calc(14.5px + .2vw);
+            line-height: 40px;
+            letter-spacing:2px;
+            text-indent: 2em;
+        }
+        img{
+            display: block;
+            width: 100%;
+            padding: 20px 0 ;
+            &:last-child{
+                padding-bottom: 80px;
+            }
+        }
+        .introduce_pic{
+            text-align: center;
+        }
+    }
+}

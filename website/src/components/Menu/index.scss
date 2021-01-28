@@ -1,0 +1,31 @@
+#custom_menu{
+    width: 100%;
+    text-align: center;
+    .custom_menu_closebtn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #000;
+        font-size: 2.3em;
+    }
+    .ant-collapse-icon-position-right{
+        background-color: transparent;
+        color: #000;
+        .ant-collapse-item{
+            .ant-collapse-header{
+                padding-right: 12px;
+                color: #000;
+            }
+            .ant-collapse-content{
+                .ant-collapse-content-box{
+                    p{
+                        cursor: pointer;
+                        padding: 16px 0 ;
+                        color: #000;
+                        border-bottom: 1px solid #d9d9d9;
+                    }
+                }
+            }
+        }
+    } 
+}

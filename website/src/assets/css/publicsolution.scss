@@ -1,0 +1,82 @@
+#total_solution{
+    .total_solution_banner{
+        img{
+            display: block;
+            width: 100%;
+            min-height: 100px;
+        } 
+    }
+    .total_solution_list{
+        margin: 1rem 0;
+        // border-bottom: 1px solid #777;
+        position: relative;
+        &::after{
+            content: " ";
+            height: 1px;
+            width: 100%;
+            background-color: #777;
+            position: absolute;
+            bottom: 0;
+        }
+        .total_solution_navlinkbox{
+            line-height: 61px;
+            font-size: calc(16px + .2vw);
+            font-weight: bold;
+            height: 60px;
+            border-bottom: 1px solid #777;
+            color: #252525;
+            a{
+                display: inline-block;
+                color: #252525;
+                box-sizing: border-box;
+                word-break:break-all;
+                display:-webkit-box;
+                -webkit-line-clamp:1;
+                -webkit-box-orient:vertical;
+                overflow:hidden;
+                width: 100%;
+                height: 100%;
+                .custom_span{
+                    display: inline-block;
+                    border-bottom: 4px solid transparent;
+                    position: relative;
+                    text-overflow: ellipsis;
+                    height: 100%;
+                    white-space: nowrap;
+                    &::after{
+                        content:" ";
+                        height: 0;
+                        width: 100%;
+                        border-bottom:4px solid #f77;
+                        right:0;
+                        position: absolute;
+                        left: 0;
+                        opacity: 0;
+                        transform:scaleX(0);
+                        transition: transform .5s cubic-bezier(.4,0,.2,1),opacity .3s cubic-bezier(.4,0,.2,1);
+                        top:57px;
+                    }
+                    &:hover{
+                        &::after{
+                            opacity: 1;
+                            transform:scaleX(1);
+                        }
+                    }
+                }
+            }
+            .total_solution_active{
+                // width: 100%;
+                // color: #ff6060;
+                .custom_span{
+                    &::after{
+                        opacity: 1;
+                        transform:scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+    .total_solution_route{
+        padding-bottom: 150px;
+    }
+}

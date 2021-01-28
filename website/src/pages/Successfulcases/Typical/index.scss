@@ -1,0 +1,37 @@
+#typicalcpt_tabs{
+    padding: 25px 0;
+    .ant-tabs-nav{
+        border-bottom: none;
+        &::before{
+            border: none;
+        }
+        .ant-tabs-nav-list{
+            .ant-tabs-tab{
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #f77;
+                &:hover{
+                    color: #f77;
+                }
+                .ant-tabs-tab-btn{
+                    color: #f77;
+                    &:active{
+                        color: #f77;
+                    }
+                    &:focus{
+                        color: #f77;
+                    }
+                }
+            }
+            .ant-tabs-tab-active{
+                background-color: #f77;
+                .ant-tabs-tab-btn{
+                    color: #fff !important;
+                }
+            }
+            .ant-tabs-ink-bar-animated{
+                display: none;
+            }
+        }
+    }
+}

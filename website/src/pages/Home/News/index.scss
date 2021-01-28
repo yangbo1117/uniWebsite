@@ -1,0 +1,120 @@
+#news{
+    margin-top: -60px;
+    padding-top: 60px;
+    .news_shell{
+        background-color: rgb(247, 247, 247);
+        min-height: 500px;
+        padding-bottom: 80px;
+        .news_title{
+            text-align: center;
+            box-sizing: border-box;
+            padding: 50px 0 20px 0 ;
+            span{
+                display: inline-block;
+                border-bottom: 4px solid rgb(255,98,97);
+                font-size: calc(18px + .7vw);
+                font-weight: 600;
+                color: #111;
+                letter-spacing: 5px;
+                line-height: 50px;
+            }
+        }
+        .news_pc{
+            .slick-slider{
+                .slick-prev{
+                    height: 80px;
+                    box-shadow: 0 1px 3px #eee;
+                    background-color: #efefef;
+                    &::before{
+                        color: #ccc;
+                        content: "<";
+                    }
+                }
+                .slick-next{
+                    height: 80px;
+                    box-shadow: 0 1px 3px #eee;
+                    background-color: #efefef;
+                    &::before{
+                        color: #ccc;
+                        content: ">";
+                    }
+                }
+                .slick-dots{
+                    li{
+                        button{
+                            &::before{
+                                font-size: 20px;
+                                color: #bbb;
+                            }
+                        }
+                    }
+                }
+                .newsbox{
+                    min-height: 250px;
+                    background-color: #fff;
+                    margin: 20px 30px;
+                    overflow: hidden;
+                    .news_img{
+                        width: 100%;
+                        height: 270px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: hidden;
+                        img{
+                            display: block;
+                            height: 100%;
+                            cursor: pointer;
+                            opacity: 0.95;
+                            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                            transition: opacity 0.35s, transform 0.35s;
+                            -webkit-transform: scale3d(1.05,1.05,1);
+                            transform: scale3d(1.05,1.05,1);
+                            &:hover{
+                                opacity: 0.6;
+                                -webkit-transform: scale3d(1,1,1);
+                                transform: scale3d(1,1,1);
+                            }
+                        }
+                    }
+                    .news_inner{
+                        padding: 25px 20px;
+                        .news_h4{
+                            font-size: calc(14px + .2vw);
+                            height: 60px;
+                            color: rgba(0,0,0,.85);
+                            font-weight: 700;
+                            word-break:break-all;
+                            display:-webkit-box;
+                            -webkit-line-clamp:2;
+                            -webkit-box-orient:vertical;
+                            overflow:hidden;
+                        }
+                        .news_time{
+                            font-size: 16px;
+                            color: rgb(133, 133, 133);
+                            padding: 8px 0;
+                        }
+                        .news_words{
+                            color: #000;
+                            line-height: 24px;
+                            font-size: calc(14px + .1vw);
+                            width:100%;
+                            word-break:break-all;
+                            text-overflow:ellipsis;
+                            -o-text-overflow:ellipsis;
+                            -icab-text-overflow: ellipsis;
+                            -khtml-text-overflow: ellipsis;
+                            -moz-text-overflow: ellipsis;
+                            -webkit-text-overflow: ellipsis;
+                            display:-webkit-box;
+                            -webkit-line-clamp:3;
+                            -webkit-box-orient:vertical;
+                            overflow:hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

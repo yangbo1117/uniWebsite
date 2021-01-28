@@ -1,0 +1,25 @@
+.custom_cases{
+    padding: 30px 0;
+    .case_title{
+        padding: 10px 0 ;
+        .title_self{
+            font-size: calc(18px + .7vw);
+            font-weight: 700;
+        }
+    }
+    .custom_cases_item{
+        font-size: calc(14px + .2vw);
+        vertical-align: middle;
+        padding: 10px 0;
+        &::before{
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background-color: #252525;
+            vertical-align: middle;
+            border-radius: 50%;
+            margin: 8px;
+        }
+    }
+}
