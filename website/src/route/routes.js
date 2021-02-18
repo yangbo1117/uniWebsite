@@ -14,6 +14,7 @@ import Hisinfos from '../pages/Hisinfos'; //HIS信息化
 import Successfulcases from '../pages/Successfulcases'; //成功案例
 import Messages from "../pages/Messages"; //商务信息
 import NewsPage from "../pages/News"; //新闻中心
+import CNewsPage_1 from "../pages/News/CustomNewPage/cnewspage1";
 
 // const Home = Bundle(() => import(/* webpackChunkName: "Home" */ '../pages/Home'));
 // const Drgdata = Bundle(() => import(/* webpackChunkName: "Drgdata" */ '../pages/Drgdata'));
@@ -30,6 +31,7 @@ export default class Eroute extends Component{
         }
         return(
             <QueueAnim type='left'>
+                <Route path='/cnewspage_1' component={ CNewsPage_1 }></Route>
                 <Route component={Header} key='header'></Route>
                     <div id='custom_router' style={style} key='page'>
                         <Switch>
