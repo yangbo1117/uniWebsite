@@ -42,7 +42,7 @@ class Page extends Component {
                         >
                             <Meta description={
                                 <>
-                                    <div style={{ width: "100%", minHeight: 64, }}>
+                                    <div style={{ width: "100%", minHeight: 70, }}>
                                         <Paragraph ellipsis={{rows: 2 }} style={{overflow: "hidden"}}>
                                             <p className="news-title-b" style={{overflow: "hidden"}}>{item.title}</p>
                                         </Paragraph>
