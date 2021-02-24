@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.92a2bc2e.chunk.css",
-    "main.js": "/static/js/main.95e1d6b3.chunk.js",
-    "main.js.map": "/static/js/main.95e1d6b3.chunk.js.map",
+    "main.css": "/static/css/main.d87a9d60.chunk.css",
+    "main.js": "/static/js/main.32a8d68e.chunk.js",
+    "main.js.map": "/static/js/main.32a8d68e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a07cc9a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a07cc9a5.js.map",
     "static/css/2.ad2b15f8.chunk.css": "/static/css/2.ad2b15f8.chunk.css",
-    "static/js/2.4ed40878.chunk.js": "/static/js/2.4ed40878.chunk.js",
-    "static/js/2.4ed40878.chunk.js.map": "/static/js/2.4ed40878.chunk.js.map",
+    "static/js/2.230660b5.chunk.js": "/static/js/2.230660b5.chunk.js",
+    "static/js/2.230660b5.chunk.js.map": "/static/js/2.230660b5.chunk.js.map",
     "index.html": "/index.html",
     "mobile/img/advantage1.png": "/mobile/img/advantage1.964847c.png",
     "mobile/img/advantage2.png": "/mobile/img/advantage2.870dd3e.png",
@@ -107,22 +107,22 @@
     "mobile/img/weixin.jpg": "/mobile/img/weixin.763f036.jpg",
     "mobile/img/yunnan1.png": "/mobile/img/yunnan1.93cbbf5.png",
     "mobile/img/yunnan2.png": "/mobile/img/yunnan2.bec01a6.png",
-    "precache-manifest.98eea0fe4e7345905ebdcfacc67dc73e.js": "/precache-manifest.98eea0fe4e7345905ebdcfacc67dc73e.js",
+    "precache-manifest.df5147f1c006f77859c14a40b3bab685.js": "/precache-manifest.df5147f1c006f77859c14a40b3bab685.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ad2b15f8.chunk.css.gz": "/static/css/2.ad2b15f8.chunk.css.gz",
     "static/css/2.ad2b15f8.chunk.css.map": "/static/css/2.ad2b15f8.chunk.css.map",
-    "static/css/main.92a2bc2e.chunk.css.gz": "/static/css/main.92a2bc2e.chunk.css.gz",
-    "static/css/main.92a2bc2e.chunk.css.map": "/static/css/main.92a2bc2e.chunk.css.map",
-    "static/js/2.4ed40878.chunk.js.LICENSE.txt": "/static/js/2.4ed40878.chunk.js.LICENSE.txt",
-    "static/js/2.4ed40878.chunk.js.gz": "/static/js/2.4ed40878.chunk.js.gz",
-    "static/js/main.95e1d6b3.chunk.js.gz": "/static/js/main.95e1d6b3.chunk.js.gz",
+    "static/css/main.d87a9d60.chunk.css.gz": "/static/css/main.d87a9d60.chunk.css.gz",
+    "static/css/main.d87a9d60.chunk.css.map": "/static/css/main.d87a9d60.chunk.css.map",
+    "static/js/2.230660b5.chunk.js.LICENSE.txt": "/static/js/2.230660b5.chunk.js.LICENSE.txt",
+    "static/js/2.230660b5.chunk.js.gz": "/static/js/2.230660b5.chunk.js.gz",
+    "static/js/main.32a8d68e.chunk.js.gz": "/static/js/main.32a8d68e.chunk.js.gz",
     "static/media/2020-12-29.pdf": "/static/media/2020-12-29.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.a07cc9a5.js",
     "static/css/2.ad2b15f8.chunk.css",
-    "static/js/2.4ed40878.chunk.js",
-    "static/css/main.92a2bc2e.chunk.css",
-    "static/js/main.95e1d6b3.chunk.js"
+    "static/js/2.230660b5.chunk.js",
+    "static/css/main.d87a9d60.chunk.css",
+    "static/js/main.32a8d68e.chunk.js"
   ]
 }

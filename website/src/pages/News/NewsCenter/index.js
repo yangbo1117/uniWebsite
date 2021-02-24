@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import newsList from "assets/js/newsdata";
-import { List, Card, Typography, ConfigProvider, Button } from "antd";
+import { List, Card, ConfigProvider, Button } from "antd";
 import "./index.scss";
 import zh_CN from 'antd/es/locale/zh_CN'; //汉化
 
-const { Paragraph } = Typography;
 const { Meta } = Card;
 class Page extends Component {
     render() {
@@ -42,10 +41,8 @@ class Page extends Component {
                         >
                             <Meta description={
                                 <>
-                                    <div style={{ width: "100%", minHeight: 70, }}>
-                                        <Paragraph ellipsis={{rows: 2 }} style={{overflow: "hidden"}}>
-                                            <p className="news-title-b" style={{overflow: "hidden"}}>{item.title}</p>
-                                        </Paragraph>
+                                    <div style={{ width: "100%",minHeight: 70}}>
+                                        <p className="news-title-b" >{item.title}</p>
                                     </div>
                                     <p>{item.time}</p>
                                 </>
