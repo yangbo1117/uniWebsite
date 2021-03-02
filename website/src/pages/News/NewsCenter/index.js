@@ -7,7 +7,7 @@ import zh_CN from 'antd/es/locale/zh_CN'; //汉化
 const { Meta } = Card;
 class Page extends Component {
     render() {
-        const ListData = newsList.reverse();
+        const ListData = [].concat(newsList).sort((a,b) => b.id - a.id);
         return(
             <div className="card-padding-3">
                 <ConfigProvider locale={zh_CN}>

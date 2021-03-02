@@ -8,7 +8,7 @@ const IconFont = createFromIconfontCN({
   scriptUrl: '//at.alicdn.com/t/font_1911746_zwmlxkspm6.js',
 });
 
-let data = new Array(23).fill("");
+let data = new Array(32).fill("");
 export default class Demeanour extends React.Component {
   constructor(props) {
     super(props);
@@ -72,11 +72,10 @@ export default class Demeanour extends React.Component {
             {
               data.map((item, index) => (
                 <div className="viewhigh_slider1" key={index}>
-                  <img src={require(`./img/demeanour${index}.jpg`)} alt="" />
+                  <img src={require(`./img/demeanour${data.length - (1 + index)}.jpg`)} alt="" />
                 </div>
               ))
             }
-
           </Slider>
         </div>
         <div className='vh_slider2_shell'>
@@ -90,7 +89,7 @@ export default class Demeanour extends React.Component {
             {
               data.map((item, index) => (
                 <div className="viewhigh_slider2" key={index}>
-                  <img src={require(`./img/demeanour${index}.jpg`)} alt="" />
+                  <img src={require(`./img/demeanour${data.length - (1 + index)}.jpg`)} alt="" />
                 </div>
               ))
             }

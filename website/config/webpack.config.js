@@ -380,14 +380,14 @@ module.exports = function(webpackEnv) {
                   options: {
                     mozjpeg: {
                       progressive: true,
-                      quality: 90
+                      quality: 93
                     },
                     // optipng.enabled: false will disable optipng
                     optipng: {
                       enabled: false,
                     },
                     pngquant: {
-                      quality: [0.8, 0.9],
+                      quality: [0.9, 0.9],
                       speed: 6
                     },
                     gifsicle: {

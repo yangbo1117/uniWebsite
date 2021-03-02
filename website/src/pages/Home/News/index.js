@@ -9,7 +9,7 @@ import list from "assets/js/newsdata";
 export default class News extends React.Component {
   
   render() {
-    let newsList = list.filter(i => i.show).reverse().slice(0, 6);
+    let newsList = [].concat(list).sort((a,b) => b.id - a.id).slice(0, 6);
     var settings = {
       dots: true,
       infinite: true,

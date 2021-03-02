@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d87a9d60.chunk.css",
-    "main.js": "/static/js/main.32a8d68e.chunk.js",
-    "main.js.map": "/static/js/main.32a8d68e.chunk.js.map",
+    "main.js": "/static/js/main.2bc00717.chunk.js",
+    "main.js.map": "/static/js/main.2bc00717.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a07cc9a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a07cc9a5.js.map",
     "static/css/2.ad2b15f8.chunk.css": "/static/css/2.ad2b15f8.chunk.css",
@@ -99,7 +99,7 @@
     "mobile/img/sichuan1.png": "/mobile/img/sichuan1.e275295.png",
     "mobile/img/sichuan2.png": "/mobile/img/sichuan2.c21e560.png",
     "mobile/img/top_banner.jpg": "/mobile/img/top_banner.fc4d033.jpg",
-    "mobile/img/unionnet.png": "/mobile/img/unionnet.09b77ab.png",
+    "mobile/img/unionnet.png": "/mobile/img/unionnet.e96ec4c.png",
     "mobile/img/user1.jpg": "/mobile/img/user1.b2e4f4d.jpg",
     "mobile/img/user2.jpg": "/mobile/img/user2.aef5221.jpg",
     "mobile/img/user3.jpg": "/mobile/img/user3.05710ba.jpg",
@@ -107,7 +107,7 @@
     "mobile/img/weixin.jpg": "/mobile/img/weixin.763f036.jpg",
     "mobile/img/yunnan1.png": "/mobile/img/yunnan1.93cbbf5.png",
     "mobile/img/yunnan2.png": "/mobile/img/yunnan2.bec01a6.png",
-    "precache-manifest.df5147f1c006f77859c14a40b3bab685.js": "/precache-manifest.df5147f1c006f77859c14a40b3bab685.js",
+    "precache-manifest.8eada6e1a377ec385d36a829d7dd0b4b.js": "/precache-manifest.8eada6e1a377ec385d36a829d7dd0b4b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ad2b15f8.chunk.css.gz": "/static/css/2.ad2b15f8.chunk.css.gz",
     "static/css/2.ad2b15f8.chunk.css.map": "/static/css/2.ad2b15f8.chunk.css.map",
@@ -115,7 +115,7 @@
     "static/css/main.d87a9d60.chunk.css.map": "/static/css/main.d87a9d60.chunk.css.map",
     "static/js/2.230660b5.chunk.js.LICENSE.txt": "/static/js/2.230660b5.chunk.js.LICENSE.txt",
     "static/js/2.230660b5.chunk.js.gz": "/static/js/2.230660b5.chunk.js.gz",
-    "static/js/main.32a8d68e.chunk.js.gz": "/static/js/main.32a8d68e.chunk.js.gz",
+    "static/js/main.2bc00717.chunk.js.gz": "/static/js/main.2bc00717.chunk.js.gz",
     "static/media/2020-12-29.pdf": "/static/media/2020-12-29.pdf"
   },
   "entrypoints": [
@@ -123,6 +123,6 @@
     "static/css/2.ad2b15f8.chunk.css",
     "static/js/2.230660b5.chunk.js",
     "static/css/main.d87a9d60.chunk.css",
-    "static/js/main.32a8d68e.chunk.js"
+    "static/js/main.2bc00717.chunk.js"
   ]
 }
