@@ -15,7 +15,7 @@ export default class Medicalrecord extends React.Component{
         this.state = {
             tabs:[
                 {tabName:"病案管理分析平台",path:'/product/medicalrecord/management',compt: Management},
-                {tabName:"病案质量监测系统(HQMS)",path:'/product/medicalrecord/hqms',compt:Hqms}, //质量监测系统(HQMS)
+                {tabName:"质量监测系统(HQMS)",path:'/product/medicalrecord/hqms',compt:Hqms}, //质量监测系统(HQMS)
                 {tabName:"病案智能编码系统",path:'/product/medicalrecord/code',compt: Code},
                 {tabName:"云病案平台",path:'/product/medicalrecord/cloud',compt: Cloud},
             ],

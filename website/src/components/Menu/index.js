@@ -49,7 +49,7 @@ class CustomMenu extends React.Component{
             { name:'医院微信预约打印系统',url:'/product/digitization/wechatorder'},
             { name:'医院病案自助打印系统',url:'/product/digitization/printing'},
             { name:'病案管理分析平台',url:'/product/medicalrecord/management'},
-            { name:'病案质量监测系统(HQMS)',url:'/product/medicalrecord/hqms'},
+            { name:'质量监测系统(HQMS)',url:'/product/medicalrecord/hqms'},
             { name:'病案智能编码系统',url:'/product/medicalrecord/code'},
             { name:'云病案平台',url:'/product/medicalrecord/cloud'},
             { name:'DRG医保支付系统',url:'/product/drgdata/payment'},

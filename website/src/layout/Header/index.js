@@ -108,7 +108,7 @@ class Header extends React.Component {
                                                         <p><span><i></i><NavLink to='/product/drgdata/payment'>DRG医保支付系统</NavLink></span><span><i></i><NavLink to='/product/digitization/printing'>医院病案自助打印系统</NavLink></span></p>
                                                         <p><span><i></i><NavLink to="/product/drgdata/fund">DRG基金监管系统</NavLink></span><em className="navbar_box4_line"><i></i>————————</em></p>
                                                         <p><span><i></i><NavLink to='/product/drgdata/quality'>DRG医院质量管理与绩效评价平台</NavLink></span><span><i></i><NavLink to='/product/medicalrecord/management'>病案管理分析平台</NavLink></span></p>
-                                                        <p><span><i></i><NavLink to='/product/drgdata/threelevel'>三级公立医院绩效考核平台</NavLink></span><span><i></i><NavLink to='/product/medicalrecord/hqms'>病案质量监测系统(HQMS)</NavLink></span></p>
+                                                        <p><span><i></i><NavLink to='/product/drgdata/threelevel'>三级公立医院绩效考核平台</NavLink></span><span><i></i><NavLink to='/product/medicalrecord/hqms'>质量监测系统(HQMS)</NavLink></span></p>
                                                         <p><span><i></i><NavLink to='/product/drgdata/clinical'>基于大数据的临床路径系统</NavLink></span><span><i></i><NavLink to='/product/medicalrecord/code'>病案智能编码系统</NavLink></span></p>
                                                         <p><span><i></i><NavLink to='/product/drgdata/performance'>医院医疗质量管理和费用监控系统</NavLink></span><span><i></i><NavLink to='/product/medicalrecord/cloud'>云病案平台</NavLink></span></p>
                                                     </div>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.61ac349b.chunk.css",
-    "main.js": "/static/js/main.7d40d934.chunk.js",
-    "main.js.map": "/static/js/main.7d40d934.chunk.js.map",
+    "main.js": "/static/js/main.fc1e2cdb.chunk.js",
+    "main.js.map": "/static/js/main.fc1e2cdb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a07cc9a5.js",
     "runtime-main.js.map": "/static/js/runtime-main.a07cc9a5.js.map",
     "static/css/2.ad2b15f8.chunk.css": "/static/css/2.ad2b15f8.chunk.css",
@@ -85,7 +85,7 @@
     "mobile/img/user3.jpg": "/mobile/img/user3.3c92575.jpg",
     "mobile/img/user4.jpg": "/mobile/img/user4.b4991af.jpg",
     "mobile/img/weixin.jpg": "/mobile/img/weixin.6c716a9.jpg",
-    "precache-manifest.d5637454bf6d64e38546c5af64f15a66.js": "/precache-manifest.d5637454bf6d64e38546c5af64f15a66.js",
+    "precache-manifest.08c6a1e7452af50cf84c26842b8191a4.js": "/precache-manifest.08c6a1e7452af50cf84c26842b8191a4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ad2b15f8.chunk.css.gz": "/static/css/2.ad2b15f8.chunk.css.gz",
     "static/css/2.ad2b15f8.chunk.css.map": "/static/css/2.ad2b15f8.chunk.css.map",
@@ -93,7 +93,7 @@
     "static/css/main.61ac349b.chunk.css.map": "/static/css/main.61ac349b.chunk.css.map",
     "static/js/2.52d14638.chunk.js.LICENSE.txt": "/static/js/2.52d14638.chunk.js.LICENSE.txt",
     "static/js/2.52d14638.chunk.js.gz": "/static/js/2.52d14638.chunk.js.gz",
-    "static/js/main.7d40d934.chunk.js.gz": "/static/js/main.7d40d934.chunk.js.gz",
+    "static/js/main.fc1e2cdb.chunk.js.gz": "/static/js/main.fc1e2cdb.chunk.js.gz",
     "static/media/font.css": "/static/media/Source Han Sans CN Regular.ttf"
   },
   "entrypoints": [
@@ -101,6 +101,6 @@
     "static/css/2.ad2b15f8.chunk.css",
     "static/js/2.52d14638.chunk.js",
     "static/css/main.61ac349b.chunk.css",
-    "static/js/main.7d40d934.chunk.js"
+    "static/js/main.fc1e2cdb.chunk.js"
   ]
 }
