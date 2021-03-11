@@ -4,15 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-newbuild
-/newbuild
 # testing
 /coverage
 
 # production
 /build
-newbuild
-/newbuild
 
 # misc
 .DS_Store
