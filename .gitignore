@@ -1,5 +1,6 @@
 /node/myStudy/node_modules
 /website/node_modules
 /website/newbuild
+/website/newbuild/*
 /website/build
 

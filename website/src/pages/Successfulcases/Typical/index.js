@@ -17,7 +17,7 @@ const Typicalcpt = () =>{
                 <TabPane tab="江西省赣州市人民医院" key="2">
                     <Jiangxi></Jiangxi>
                 </TabPane>
-                <TabPane tab="四川省医学科学院●四川省人民医院" key="3">
+                <TabPane tab="四川省医学科学院·四川省人民医院" key="3">
                     <Sichuan></Sichuan>
                 </TabPane>
                 <TabPane tab="云南省省本级医保支付平台" key="4">

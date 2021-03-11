@@ -12,7 +12,7 @@ const Sichuancpt = () => {
                     <Avatar src={photo} size={128} ></Avatar>
                 </div>
                 <div>
-                    <Title level={2}>四川省医学科学院●四川省人民医院</Title>
+                    <Title level={2}>四川省医学科学院·四川省人民医院</Title>
                 </div>
             </div>
             <div className='case_hosp_content'>
