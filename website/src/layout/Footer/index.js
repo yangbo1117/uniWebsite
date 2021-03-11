@@ -35,8 +35,8 @@ export default class Footer extends React.Component{
                                             <Col xs={24} md={12} lg={12} order={2}>
                                                 <dl>
                                                     <dt>产品解决方案</dt>
-                                                    <dd><Link to='/product/hisinfos'>HIS医院信息化管理解决方案</Link></dd>
-                                                    <dd><Link to='/product/digitization'>联众病案数字化解决方案</Link></dd>
+                                                    <dd><Link to='/product/hisinfos'>联众HIS医院信息化管理解决方案</Link></dd>
+                                                    <dd><Link to='/product/digitization'>联众病案无纸化解决方案</Link></dd>
                                                     <dd><Link to='/product/medicalrecord'>联众病案管理分析解决方案</Link></dd>
                                                     <dd><Link to='/product/drgdata'>联众DRG一体化解决方案</Link></dd>
                                                 </dl>

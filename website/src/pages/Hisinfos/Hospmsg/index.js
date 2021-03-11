@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../../assets/css/page.scss';
-export default class Hospmsg extends React.Component{
-    render(){
-        return( 
+export default class Hospmsg extends React.Component {
+    render() {
+        return (
             <div id='custom_drg'>
                 <h3><span>HIS医院信息系统</span></h3>
                 <p>
@@ -15,22 +15,14 @@ export default class Hospmsg extends React.Component{
                     <p>HIS医院信息系统的主要特点体现在：</p>
                     <p><strong className='strong_listyle'>一体化系统模块，消除数据壁垒</strong></p>
                     <p>
-                    HIS医院信息系统包括门急诊管理系统、电子病历系统(EMR)、药品管理系统、医技管理系统、医学影像系统、物流管理系统、行政管理系统、决策支持系统、医保对账系统、医保数据上传系统、病员综合服务系统、实验室信息系统(LIS)、放射医技信息系统(RIS)和医学影像存储与通信系统(PACS)等内容。通过各系统模块整合，实现一体化数据交互，规避医疗信息孤岛，有效消除数据壁垒。
+                        HIS医院信息系统包括门急诊管理系统、电子病历系统(EMR)、药品管理系统、医技管理系统、医学影像系统、物流管理系统、行政管理系统、决策支持系统、医保对账系统、医保数据上传系统、病员综合服务系统、实验室信息系统(LIS)、放射医技信息系统(RIS)和医学影像存储与通信系统(PACS)等内容。通过各系统模块整合，有效实现一体化数据交互，规避医疗信息孤岛，有效消除数据壁垒。
                     </p>
                     <p><strong className='strong_listyle'>减少冗余功能，精细化研发工作站</strong></p>
                     <p>
                     系统内设门诊/住院医生工作站、门诊/住院护士工作站。各工作站主要功能依据职能要求进行研发。如医生工作站主要功能为编辑电子病历、打印、处理医嘱；护士工作站(门诊)主要功能为门诊分诊、排队登记；护士工作站(住院)主要功能则是床位管理、医嘱管理、治疗管理。通过将系统功能专业化、精细化，使医护人员快速掌握并运用，将主要精力投入到对病人的诊疗护理。
                     </p>
                 </div>
-                <img  className='custom_drg_img' src={require('./img/pic2.png')} alt="" />
-                <div className="custom_drg_box">
-                    <p className="custom_drg_words">自助服务系统界面展示</p>
-                </div>
                 <p>信息技术是现代医院宝贵的物质资源，HIS医院信息系统的建设可以整合医院分散于各部门的数据信息，将数据集中统一储存，方便信息数据的提取，增强管理的科学性，协调发展社会效益与经济效益。</p>
-                <img  className='custom_drg_img' src={require('./img/pic3.png')} alt="" />
-                <div className="custom_drg_box">
-                    <p className="custom_drg_words">HIS出入院管理系统功能展示</p>
-                </div>
             </div>
         )
     }

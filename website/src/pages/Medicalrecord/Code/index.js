@@ -15,13 +15,13 @@ export default class Code extends React.Component{
                 <p>
                 上海联众病案智能编码系统，是全面完整的首页数据审核、校验、辅助指导系统，系统可独立安装运行，也可与其他系统结合运用(病案首页统计系统、HQMS系统、电子病历系统、DRG平台等)。拥有数据采集、数据审核，DRG预入组，病案首页数据质量评分，结果反馈五大主要功能。
                 </p>
-                <img  className='custom_drg_img' src={require('./img/intellcode1.png')} alt="" />
+                <img  className='custom_drg_img' src={require('./img/pic1.png')} alt="" />
                 <div className="custom_drg_box">
                     <p className="custom_drg_words">编码审核框架图</p>
                     <b>主要特点与价值</b>
                     <p>智能编码解决方案的主要特点体现在：</p>
                     <ul>
-                        <li>由临床专家、病案专家、编码专家共同编辑制订的3万+规则的大型编码知识库，规则覆盖广，提高病案首页数据质量。</li>
+                        <li>由临床专家、病案专家、编码专家共同编辑制订的5万+规则的大型编码知识库，规则覆盖广，提高病案首页数据质量。</li>
                         <li>可以接口嵌入的形式，完成对医生工作站端的功能提示，保证数据的安全性。</li>
                         <li>准确的病案首页质量评分，对病案首页质量做到实时监管。</li>
                         <li>嵌入DRG分组器，对病案进行DRG预分组，做到事前分析，避免入错组。</li>
@@ -29,11 +29,6 @@ export default class Code extends React.Component{
                     </ul>
                 </div>
                 <p>上海联众DRG智能编码系统，集辅助，审核，监管，评价，分析为一体，全面化、效率化地对病案数据质量提供保障。</p>
-                <img className='custom_drg_img' src={require('./img/intellcode2.png')} alt="" />
-                <div className="custom_drg_box">
-                    <p className="custom_drg_words">平台登陆界面展示</p>
-                </div>
-            
             </div>
         )
     }

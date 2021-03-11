@@ -18,7 +18,7 @@ export default class Drgdata extends React.Component{
                 {tabName:"DRG医保支付系统",path:'/product/drgdata/payment',compt:Medicalpayment},
                 {tabName:"DRG基金监管系统",path:'/product/drgdata/fund',compt:Fundregulation},
                 {tabName:"DRG医院质量管理与绩效评价平台",path:'/product/drgdata/quality',compt:Qualitymanage},
-                {tabName:"三级公立医院绩效考核系统",path:'/product/drgdata/threelevel',compt:Pubhospperformance},
+                {tabName:"三级公立医院绩效考核平台",path:'/product/drgdata/threelevel',compt:Pubhospperformance},
                 {tabName:"基于大数据的临床路径系统",path:'/product/drgdata/clinical',compt:Clinicalpathway},
                 {tabName:"医院医疗质量管理和费用监控系统",path:'/product/drgdata/performance',compt:Performance},
             ],

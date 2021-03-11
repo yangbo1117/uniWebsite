@@ -37,7 +37,7 @@ class CustomMenu extends React.Component{
         ],
         data2:[
             { name:'联众HIS医院信息化管理解决方案',url:'/product/hisinfos'},
-            { name:'联众病案数字化解决方案',url:'/product/digitization'},
+            { name:'联众病案无纸化解决方案',url:'/product/digitization'},
             { name:'联众病案管理分析解决方案',url:'/product/medicalrecord'},
             { name:'联众DRG一体化解决方案',url:'/product/drgdata'},
         ],
@@ -47,15 +47,15 @@ class CustomMenu extends React.Component{
             { name:'医院病案数字化系统',url:'/product/digitization/digital'},
             { name:'医院无纸化病案系统',url:'/product/digitization/paperless'},
             { name:'医院微信预约打印系统',url:'/product/digitization/wechatorder'},
-            { name:'病案自主打印系统',url:'/product/digitization/printing'},
+            { name:'医院病案自助打印系统',url:'/product/digitization/printing'},
             { name:'病案管理分析平台',url:'/product/medicalrecord/management'},
             { name:'病案质量监测系统(HQMS)',url:'/product/medicalrecord/hqms'},
             { name:'病案智能编码系统',url:'/product/medicalrecord/code'},
             { name:'云病案平台',url:'/product/medicalrecord/cloud'},
-            { name:'三级公立医院绩效考核系统',url:'/product/drgdata/threelevel'},
             { name:'DRG医保支付系统',url:'/product/drgdata/payment'},
             { name:'DRG基金监管系统',url:'/product/drgdata/fund'},
             { name:'DRG医院质量管理与绩效评价平台',url:'/product/drgdata/quality'},
+            { name:'三级公立医院绩效考核平台',url:'/product/drgdata/threelevel'},
             { name:'基于大数据的临床路径系统',url:'/product/drgdata/clinical'},
             { name:'医院医疗质量管理和费用监控系统',url:'/product/drgdata/performance'},
         ],
@@ -116,11 +116,6 @@ class CustomMenu extends React.Component{
                            ))
                        }
                     </Panel>
-                    {/* <div className="ant-collapse-item ant-collapse-no-arrow" onClick={(e) => { this.handleClick(e,"/messages") }}>
-                        <div className="ant-collapse-header" role="button"  aria-expanded="false">
-                            联系我们
-                        </div>
-                    </div> */}
                 </Collapse>
             </div>
         )

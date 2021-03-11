@@ -41,17 +41,19 @@ const Honor = () => {
                 <div className='demeanour_content_tag'>
                     <h4><b>历年来部分荣誉</b></h4>
                     <Row>
-                        <Col xs={{span:22,offset:1}} md={{span:10,offset:1}} >
+                        <Col xs={{span:22,offset:1}} md={{span:11,offset:1}} >
                             <ul className='ul_list1'>
+                                <li>2020年病案智能编码系统获得“十佳创新应用奖”</li>
+                                <li>2020年获得“上海市科技小巨人企业”</li>
                                 <li>2019年通过CMMI 5级管理评定</li>
                                 <li>2019年荣获HIT行业品牌排行榜“DRG TOP1”</li>
                                 <li>2017年上海市张江国家自助创新示范区专项发展资金重点项目</li>
                                 <li>2014年上海市黄浦区认定企业技术中心</li>
-                                <li>2014年上海联众数字化病案数据分析平台荣获上海市重点项目基金</li>
                             </ul>
                         </Col>
-                        <Col xs={{span:22,offset:1}} md={{span:10,offset:1}}>
+                        <Col xs={{span:22,offset:1}} md={{span:11,offset:1}}>
                             <ul className='ul_list2'>
+                                <li>2014年上海联众数字化病案数据分析平台荣获上海市重点项目基金</li>
                                 <li>2013年被评为“上海市科技小巨人企业（培育型）”</li>
                                 <li>2011年获得上海市技术创新基金无偿资助</li>
                                 <li>2008年荣获上海市科学技术成果奖</li>

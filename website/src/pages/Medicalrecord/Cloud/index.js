@@ -7,7 +7,7 @@ export default class Cloud extends React.Component {
             <div id='custom_drg'>
                 <h3><span>云病案平台</span></h3>
                 <p>
-                2015年5月18日，国务院发布了《关于城市公立医院综合改革试点的指导意见》，明确要求公立医院管理机构制定绩效评价指标体系，实行分级诊疗， 鼓励推行按疾病诊断相关组（DRG）付费方式。各地卫健委需要更加科学的评价医院的绩效水平，更好促进分级诊疗体系的建立。
+                2015年5月18日，国务院发布了《关于城市公立医院综合改革试点的指导意见》，明确要求公立医院管理机构制定绩效评价指标体系，实行分级诊疗， 鼓励推行按疾病诊断相关组（DRG）付费方式。各地卫健委需要更加科学的评价医院的绩效水平，更好促进分级诊疗体系的建立。 
                 </p>
                 <p>
                 做好新时期医院病案质量管控可加强医院信息化建设，为推进医疗卫生体制改革具有积极的现实意义。
@@ -15,18 +15,14 @@ export default class Cloud extends React.Component {
                 <p>
                 上海联众研发了云病案系统(UniCaseCloud)，综合考虑病案首页业务需求，DRG数据审核和分组需求，打造适用于省级、市级、县级、医共体等不同范围区域的云端平台，发挥技术优势，提升各区域医疗机构的病案质量，满足医疗机构首页填写与报表导出需求，为数据安全提供重要保障。协助各级医疗机构(尤其是无病案统计系统或病案统计系统尚不完善的卫生院)对其住院病案首页数据进行统一的采集、审核管理，加强其医疗质量管理与病案质控工作，建立健全病案管理工作流程。
                 </p>
-                <img className='custom_drg_img' src={require('./img/pic1.png')} alt="" />
                 <div className="custom_drg_box">
-                    <p className="custom_drg_words">平台首页数据在线编辑录入</p>
                     <b>应用意义</b>
                     <p>&nbsp;&nbsp;&nbsp;<strong>支持二级及基层医院在线录入病案</strong></p>
                     <p>云病案平台着力于为尚不完备病案首页系统的二级及基层医院服务，通过将病案录入云端化，协助医院运用新兴技术，提高病案存储的可靠性和安全性，降低医院对病案管理难度。</p>
                     <p>&nbsp;&nbsp;&nbsp;<strong>云端管理医院病案，及时监督病案质量</strong></p>
                     <p>在云端进行病案首页录入及管理，精准管理院端病案，及时监督数据质量，统计分析病案质量，提高医疗机构病案数据质量，保证上报数据的完整性、科学性、规范性，并且符合上报要求，完成相关数据上报工作。</p>
                 </div>
-                <img className='custom_drg_img' src={require('./img/pic2.png')} alt="" />
                 <div className="custom_drg_box">
-                    <p className="custom_drg_words">平台数据审核</p>
                     <b>平台功能</b>
                     <p>&nbsp;&nbsp;&nbsp;<strong>云端平台在线编辑器病案录入</strong></p>
                     <ul>

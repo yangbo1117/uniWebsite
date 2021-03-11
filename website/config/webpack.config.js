@@ -364,6 +364,14 @@ module.exports = function(webpackEnv) {
             //     name: 'static/media/[name].[hash:8].[ext]',
             //   },
             // },
+            // {
+            //   test: [/\.(woff2?|eot|ttf|otf)(\?.*)?$/],
+            //   loader: require.resolve('url-loader'),
+            //   options: {
+            //     limit: 10000,
+            //     name: 'fonts/[name].[hash:7].[ext]'
+            //   }
+            // },
             {
               // test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
               test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
