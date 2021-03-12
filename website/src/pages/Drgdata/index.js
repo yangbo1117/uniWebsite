@@ -25,7 +25,7 @@ export default class Drgdata extends React.Component{
         };
     } 
     componentDidMount(){
-        document.documentElement.scrollTop = document.body.scrollTop =0;
+        document.documentElement.scrollTop = document.body.scrollTop = 0;
     }
       
     render(){

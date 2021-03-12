@@ -17,7 +17,7 @@ export default class Printing extends React.Component{
                 </p>
                 <img  className='custom_drg_img' src={require('./img/pic1.png')} alt="" />
                 <div className="custom_drg_box">
-                    <p className="custom_drg_words">读取患者本人身份证</p>
+                    <p className="custom_drg_words">自助打印系统界面展示</p>
                     <b>主要特点与价值</b>
                     <p>上海联众病案自助打印的主要特点体现在：</p>
                     <ul>

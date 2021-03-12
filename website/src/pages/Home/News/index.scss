@@ -11,6 +11,7 @@
             padding: 50px 0 20px 0 ;
             span{
                 display: inline-block;
+                font-family: "SourceBold";
                 border-bottom: 4px solid rgb(255,98,97);
                 font-size: calc(18px + .7vw);
                 font-weight: 600;
@@ -84,6 +85,7 @@
                             height: 60px;
                             color: rgba(0,0,0,.85);
                             font-weight: 700;
+                            font-family: "SourceBold";
                             word-break:break-all;
                             display:-webkit-box;
                             -webkit-line-clamp:2;

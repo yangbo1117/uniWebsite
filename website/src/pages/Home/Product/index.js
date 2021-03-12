@@ -80,7 +80,7 @@ export default class Product extends React.Component {
                                             <Col sm={{ span: 24 }} xs={{ span: 24 }} lg={{ span: 12 }}>
                                                 <div className="productbox_words">
                                                     <p className='words_describe'>{item.describe}</p>
-                                                    <h3>{item.title}</h3>
+                                                    <h3 className="words_title">{item.title}</h3>
                                                     <div className='words_text'>
                                                         {item.content}
                                                     </div>

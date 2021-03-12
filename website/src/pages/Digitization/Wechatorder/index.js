@@ -25,13 +25,9 @@ export default class Wechatorder extends React.Component {
                         <li><strong>支持快递和自取两种方式：</strong>病人可以按实际需求自由选择，实现足不出户病案复印快递到家。</li>
                         <li><strong>一体化的微信支付功能：</strong>预约完成时系统提供微信支付功能。</li>
                         <li><strong>采用多退少补的方式：</strong>用户支付金额不足时可以追加差价订单，支付剩余时可以退差额。</li>
-                        <li><strong>和数字化病案系统提供无缝连接：</strong>通过系统的无缝连接、系统自动获取可复印病案信息供患者申请选择。</li>
-                        <li><strong>可提供快递接口、提供物流查询：</strong>通过和第三方快递公司的深度合作可以自动生成快递单信息并将需快递的病案信息自动导出。根据快递单号提供物流信息查询。</li>
+                        <li><strong>和数字化病案系统提供无缝连接:</strong>通过系统的无缝连接、系统自动获取可复印病案信息供患者申请选择。</li>
+                        <li><strong>可提供快递接口、提供物流查询:</strong>通过和第三方快递公司的深度合作可以自动生成快递单信息并将需快递的病案信息自动导出。根据快递单号提供物流信息查询。</li>
                     </ul>
-                </div>
-                <img className='custom_drg_img' src={require('./img/pic2.png')} alt="" />
-                <div className="custom_drg_box">
-                    <p className="custom_drg_words">病案微信预约打印业务流程</p>
                 </div>
                 <p>上海联众的微信预约管理平台借助微信公众平台，拓宽病案打印的渠道，从而实现病案打印的大众化，提高病案打印的便利性、科学性，有效增强“互联网+医疗服务”的实施力度，促进医院信息化和现代化建设。</p>
             </div>
